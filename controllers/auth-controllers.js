@@ -1,7 +1,6 @@
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import generator from "generate-password";
-import axios from "axios";
 
 import { ctrlWrapper } from "../decorators/index.js";
 import envConfig from "../configs/envConfigs.js";
